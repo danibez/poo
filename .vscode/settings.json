@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "privateXpublicXprotected",
+        "finalXstatic",
+        "basico",
+        "Geral",
+        "Construtor",
+        "atividadeHeranca"
+    ]
+}
