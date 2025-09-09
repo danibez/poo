@@ -1,11 +1,12 @@
 {
     "java.project.sourcePaths": [
         "privateXpublicXprotected",
+        "polimorfismo",
         "finalXstatic",
         "basico",
         "atividadeHeranca",
         "Geral",
         "Construtor",
-        "polimorfismo"
+        "classeAbstrata"
     ]
 }

@@ -1,5 +1,3 @@
-import teste.TesteEncapsulamento;
-
 public class Aplicacao {
     public static void main(String[] args) {
         double area = OperacoesMat.areaCirculo(2);
