@@ -1,3 +1,5 @@
+package conta;
+
 public class Main {
     public static void main(String[] args) {
         Conta conta1 = new Corrente(1001, 100.0);

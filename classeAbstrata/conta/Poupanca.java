@@ -1,3 +1,4 @@
+package conta;
 class Poupanca extends Conta {
     public Poupanca(int numero, double saldoInicial) {
         super(numero, saldoInicial);

@@ -1,3 +1,4 @@
+package conta;
 abstract class Conta {
     protected int numero;
     protected double saldo;

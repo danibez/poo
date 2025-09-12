@@ -1,3 +1,4 @@
+package conta;
 class Corrente extends Conta {
     private double limiteChequeEspecial = 500.0;
 
