@@ -20,6 +20,6 @@ public class InfoClientePessoaFisica extends InfoCliente {
 
     @Override
     public void exibirInfo() {
-        System.out.println();
+        System.out.println("Email: " + getEmail() + "\nData: " + getDataCadastro() + "CPF: " + getCpf());
     }
 }

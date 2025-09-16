@@ -20,6 +20,6 @@ public class InfoClientePessoaJuridica extends InfoCliente {
 
     @Override
     public void exibirInfo() {
-        throw new UnsupportedOperationException("Unimplemented method 'exibirInfo'");
+        System.out.println("Email: " + getEmail() + "\nData: " + getDataCadastro() + "CNPJ: " + getCnpj());
     }
 }
