@@ -1,3 +1,4 @@
+import java.io.FileWriter;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -8,15 +9,16 @@ public class Divide {
             int dividendo = s.nextInt();
             int divisor = s.nextInt();
             divide(dividendo, divisor);
-        } catch (ArithmeticException e1) {
+        } catch (Exception e1) {
             System.out.println("Não pode dividir por zero!");
-        } catch (InputMismatchException e2){
-            System.out.println("Digite um valor de número válido");
+            System.out.println(e1.getMessage());
         }
-        
     }
 
-    public static void divide(int dividendo, int divisor) {
+    public static void divide(int dividendo, int divisor) throws Exception {
+        if (divisor == 0) {
+            throw new Exception("NÃO PODE DIVIDIR POR ZERO!!!!");
+        }
         System.out.println("Divisão = " + (dividendo/divisor));
     }
 }
