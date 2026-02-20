@@ -1,9 +1,19 @@
 public class Ret {
-    int base = 3;
-    int altura = 4;
+    int base;
+    int altura;
+
+    Ret (int base, int altura){
+        this.base = base;
+        this.altura = altura;
+    }
+
+    Ret(){
+        this.base = 0;
+        this.altura = 0;
+    }
 
     double area(){
-        return base * altura;
+        return this.base * this.altura;
     }
 }
 

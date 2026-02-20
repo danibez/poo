@@ -1,26 +1,16 @@
 public class Circulo {
-    private double raio;
-    public static final double PI = 3.1415;
+    double raio;
 
-    public Circulo(double r){
-        setRaio(r);
+    Circulo(double r){
         raio = r;
     }
 
-    public void setRaio(double raio){
-        this.raio = raio;
+    double comprimento(){
+        return 2 * 3.14 * raio;
     }
 
-    public double getRaio(){
-        return this.raio;
-    }
-
-    public double comprimento(){
-        return 2 * PI * raio;
-    }
-
-    public double area(){
-        return PI * raio * raio;
+    double area(){
+        return 3.14 * raio * raio;
     }
 
 }

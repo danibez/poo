@@ -1,12 +1,18 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Ret r = new Ret();
-        Ret r2 = new Ret();
-
-        r2.base = 5;
-        r2.altura = 10;
-        System.out.println(r.area());
-        System.out.println(r2.area());
+        Scanner s = new Scanner(System.in);
+        int lado = s.nextInt();
         
-    }    
+        Quadrado q1 = new Quadrado(lado);
+
+        double area = q1.area();
+        double comp = q1.comprimento();
+        System.out.println("A área do quadrado é " + area);
+        System.out.println("O comprimento do quadrado é " + comp);
+        q1.desenha();
+
+
+    }
 }

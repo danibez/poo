@@ -1,18 +1,18 @@
 public class Quadrado {
     int lado;
 
-    Quadrado(){}
-
-    Quadrado(int lado){
+    Quadrado (int lado){
         this.lado = lado;
     }
 
+    Quadrado(){}
+
     double area(){
-        return lado*lado;
+        return lado * lado;
     }
 
     double comprimento(){
-        return this.lado * 4;
+        return 4 * this.lado;
     }
 
     void desenha(){
