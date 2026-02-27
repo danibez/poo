@@ -9,7 +9,8 @@
         "Construtor",
         "classeAbstrata",
         "Interfaces",
-        "Exceptions"
+        "Exceptions",
+        "associacao"
     ],
     "java.project.referencedLibraries": []
 }

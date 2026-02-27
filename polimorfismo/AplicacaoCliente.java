@@ -2,12 +2,12 @@ public class AplicacaoCliente {
  public static void main(String[ ] args) {
     // Cliente cli = new
     // ClientePessoaFisica("Fulano", "Rua tal", "123");
-    Cliente cli = new
+    Client cli = new
     ClientePessoaJuridica("Fulano", "Rua tal", "123");
     AplicacaoCliente.imprime(cli);
  }
 
- public static void imprime(Cliente c) {
+ public static void imprime(Client c) {
     System.out.println("Nome: " + c.getNome( ));
     System.out.println("Endereço: " + c.getEndereco());
     if (c instanceof ClientePessoaJuridica)

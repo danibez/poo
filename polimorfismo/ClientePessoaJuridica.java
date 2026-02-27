@@ -1,4 +1,4 @@
-public class ClientePessoaJuridica extends Cliente{
+public class ClientePessoaJuridica extends Client{
     private String cnpj;
 
     public ClientePessoaJuridica(String nome, String endereco, String cnpj){

@@ -1,6 +1,6 @@
 
 
-public class ClientePessoaFisica extends Cliente{
+public class ClientePessoaFisica extends Client{
     private String cpf;
 
     public ClientePessoaFisica(String nome, String endereco, String cpf){
