@@ -1,7 +1,7 @@
 public class Funcionario {
     private String nome;
     private int matricula;
-    Departamento dept;
+    private Departamento dept;
 
     Funcionario(String nome, int matricula, Departamento dept){
         this.nome = nome;
@@ -34,7 +34,9 @@ public class Funcionario {
     }
 
     public String toString(){
-        return getNome() + " " + getMatricula() + " " + getDept().toString();
+        return "Nome do Funcionario: " + this.nome + 
+                "\nMatrícula: " + this.matricula +
+                "\nDepartamento: " + this.dept;
     }
 
 }

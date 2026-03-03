@@ -1,16 +1,22 @@
-import java.util.Scanner;
 
 public class StaticAttr {
 
-    public static Scanner s = new Scanner(System.in);
-
     public static void main(String[] args) {
-        Pessoa p1 = new Pessoa("fulano", 20);
-        Pessoa p2 = new Pessoa("cicrano", 20);
-        Pessoa p3 = new Pessoa("beltrano", 20);
-        Pessoa p4 = new Pessoa("maria", 20);
+        
+        Pessoa pessoa = new Pessoa("fulano", 20);
 
-        System.out.println(Pessoa.contador);
+        pessoa.setNome("cicrano");
+        pessoa.setIdade(18);
+        
+        System.out.println(pessoa.getNome());
+        System.out.println(pessoa.getIdade());
+        
+        // TesteEncapsulamento t = new TesteEncapsulamento();
+        // t.atrib1 = 2;
+        // t.atrib2 = 2;
+        // t.atrib3 = 2;
+        // t.atrib4 = 2;
+
 
     }
 }

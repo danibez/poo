@@ -24,7 +24,7 @@ public class Departamento {
     }
 
     public String toString(){
-        return "Nome do Departamento: " + getNome() + "\nCódigo do Departamento: " + getCodigo();
+        return getNome() + "\nCódigo do Departamento: " + getCodigo();
     }
 
 }
