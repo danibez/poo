@@ -1,12 +1,10 @@
 public class Aplicacao {
     public static void main(String[] args) {
         double area = OperacoesMat.areaCirculo(2);
-        System.out.println(area);
-        imprime();
+        imprime(area);
     }
-
-    public static void imprime(){
-        System.out.println("AAAAAAAA");
+    public static void imprime(double area) {
+        System.out.println("A área é: " + area);
     }
 
 }

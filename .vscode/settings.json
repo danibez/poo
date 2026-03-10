@@ -10,7 +10,8 @@
         "classeAbstrata",
         "Interfaces",
         "Exceptions",
-        "associacao"
+        "associacao",
+        "heranca"
     ],
     "java.project.referencedLibraries": []
 }
