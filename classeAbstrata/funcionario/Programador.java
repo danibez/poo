@@ -5,7 +5,6 @@ public class Programador extends Funcionario{
         super(nome, salario);
     }
 
-    @Override
     public void aumentaSalario(){
         setSalario(getSalario()*1.2);
     }

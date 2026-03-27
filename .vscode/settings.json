@@ -11,7 +11,8 @@
         "Interfaces",
         "Exceptions",
         "associacao",
-        "heranca"
+        "heranca",
+        "atividade"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true

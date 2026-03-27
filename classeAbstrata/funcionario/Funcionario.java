@@ -26,4 +26,9 @@ public abstract class Funcionario {
     }
 
     public abstract void aumentaSalario();
+
+    public void exibirDados() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Salário: " + this.salario);
+    }
 }
