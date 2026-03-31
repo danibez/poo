@@ -17,7 +17,8 @@ public class Gerente extends Funcionario{
         this.departamento = departamento;
     }
 
-    public void aumentaSalario(){
+    @Override
+    public void aumentaSalario() {
         setSalario(getSalario()*1.1);
     }
 

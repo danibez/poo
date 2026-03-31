@@ -1,8 +1,7 @@
 package FormaGeo;
 
-public class Circulo implements Impressao, FormaGeometrica{
+public class Circulo implements FormaGeometrica, Impressao{
     private int raio;
-    private static final double PI = 3.1415;
 
     public Circulo(int raio){
         this.raio = raio;
@@ -20,6 +19,6 @@ public class Circulo implements Impressao, FormaGeometrica{
 
     @Override
     public void imprimirDados() {
-        System.out.println("Circulo de raio " + raio + ", area " + area() + " e comprimento " + comprimento());
+        System.out.println("Raio " + raio );
     }
 }
