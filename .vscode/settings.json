@@ -1,18 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "privateXpublicXprotected",
-        "polimorfismo",
-        "finalXstatic",
         "basico",
-        "atividadeHeranca",
-        "Geral",
-        "Construtor",
-        "classeAbstrata",
-        "Interfaces",
-        "Exceptions",
-        "associacao",
-        "heranca",
-        "atividade"
+        "associacao"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
