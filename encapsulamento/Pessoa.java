@@ -2,10 +2,12 @@ public class Pessoa {
     private String nome;
     private int idade;
     private String senha;
+    public static int cont = 0;
 
     public Pessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
+        cont++;
     }
 
     public Pessoa(String nome, String senha){
