@@ -13,4 +13,11 @@ public class ClientePF extends ClienteHeranca {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
+    @Override
+    public String toString() {
+        return  "Cliente: " + this.getNome() +
+                "\nEndereco: " + this.getEndereco() +
+                "\nCPF: " + this.cpf;
+    }
 }
