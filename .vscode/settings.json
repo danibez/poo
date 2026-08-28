@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "basico",
         "associacao",
-        "encapsulamento"
+        "encapsulamento",
+        "heranca"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
