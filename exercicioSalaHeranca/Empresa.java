@@ -40,7 +40,7 @@ public class Empresa {
                         "\n--- PROJETOS CADASTRADOS ---";
         
         for (int i = 0; i < projetos.size(); i++) {
-            ret = ret + "\n[ Projeto " + (i + 1) + " ]" + projetos.get(i);
+            ret = ret + "\n\n[ Projeto " + (i + 1) + " ]" + projetos.get(i);
         }
         
         return ret;

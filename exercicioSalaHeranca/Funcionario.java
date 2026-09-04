@@ -36,7 +36,6 @@ class Funcionario {
     @Override
     public String toString() {
         return  "Nome: " + nome +
-                "CPF: " + cpf +
-                "Salário: R$" + salario + "\n";
+                "\nCPF: " + cpf;
     }
 }
