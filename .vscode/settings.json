@@ -1,10 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "heranca",
+        "exercicioSalaHeranca",
         "encapsulamento",
         "basico",
         "associacao",
-        "exercicioSalaHeranca"
+        "exercicioSalaPolimorfismo"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
