@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "exercicioSalaPolimorfismo",
         "exercicioSalaHeranca",
         "encapsulamento",
         "basico",
         "associacao",
-        "exercicioSalaPolimorfismo"
+        "override"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
