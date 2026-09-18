@@ -1,11 +1,14 @@
 {
     "java.project.sourcePaths": [
+        "override",
         "exercicioSalaPolimorfismo",
         "exercicioSalaHeranca",
         "encapsulamento",
+        "classeAbstrata/funcionario",
+        "classeAbstrata/formaGeo",
         "basico",
         "associacao",
-        "override"
+        "classeAbstrata/conta"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
