@@ -6,9 +6,11 @@
         "encapsulamento",
         "classeAbstrata/funcionario",
         "classeAbstrata/formaGeo",
+        "classeAbstrata/conta",
         "basico",
         "associacao",
-        "classeAbstrata/conta"
+        "Interfaces/exemplo",
+        "Interfaces"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
