@@ -10,7 +10,8 @@
         "basico",
         "associacao",
         "Interfaces/exemplo",
-        "Interfaces"
+        "Interfaces",
+        "exercicioRPG"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
